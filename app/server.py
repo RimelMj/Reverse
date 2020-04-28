@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/open?id=1b-QGGMTNMC9ai7J2QaSYqkyXVkpzH2dD'
+export_file_url = 'https://drive.google.com/drive/u/2/folders/1b-QGGMTNMC9ai7J2QaSYqkyXVkpzH2dD'
 export_file_name = 'Deploy.ipynb'
 
 classes = ['M.33cl.Boga',
