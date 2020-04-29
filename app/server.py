@@ -62,7 +62,8 @@ async def setup_learner():
             raise RuntimeError(message)
         else:
             raise
-
+class Config:
+        orm_mode = True
 
 loop = asyncio.get_event_loop()
 tasks = [asyncio.ensure_future(setup_learner())]
